@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-style: oblique;
+}
+.navbar ul{
+    list-style: none;
+    background-color: rgba(4, 4, 4, 0.099);
+    padding: 0%;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #3e3d3d;
+}
+.navbar li{
+    float: left;
+}
+body{
+    background-image: url(Behind\ the\ scenes\ on\ Birmingham\ gangster\ drama\ Peaky\ Blinders.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+}
+p{color:rgb(17, 174, 130);
+ font-size: medium;
+ font-weight: 400;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+ol{
+    color: rgb(17, 174, 130);
+}
+header{
+    color: blueviolet;
+    text-size-adjust: 24;
+    font-size: 20px;
+}
+footer{
+    padding: 10px;
+    color: #000;
+    background-color:rgb(80, 80, 76);
+    margin-top: 20px;
+    
+}
+button{
+    color: blueviolet;
+    padding: 10px;
+    font-weight: 300;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 18px;
+
+}
+button:hover{
+    background-color: rgb(147, 153, 151);
+}
+
+
+image:not(.background-image){
+    border-radius: 10px;
+    box-shadow: 0,0,0.5;
+    filter: sepia(70%);
+}
+address{
+    color:rgb(17, 174, 130);
+ font-size: medium;
+ font-weight: 400;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contain{
+    align-content: center;
+    margin-bottom: 0%;
+}
